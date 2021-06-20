@@ -14,4 +14,4 @@ deploy:
   on:
     repo: raahoolkumeriya/fastapi-pipline
 after_success:  
-  - 'curl http://adhoc-pipeline.herokuapp.com'
+  - 'curl -IaS http://adhoc-pipeline.herokuapp.com'
